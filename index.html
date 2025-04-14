@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home Page KLK</title>
+    <link rel="stylesheet" href="styles/klk-portal.css">
+    <link rel="shortcut icon" href="images/favicon.ico">
+
+</head>
+<body> <div id="content">
+    <div id="banner1">
+        <p>🏗️ Don't miss the KLK Multiservicios meeting this Wednesday at 7:00 p.m.! Learn more about our projects and how we can help you.
+        </p>
+        <button  onclick="function_delete()">x</button>   
+    </div>
+ 
+    <header>
+        <a  id="logo_taita" href="index.html">
+            <img src="images/taita_img_contwp.webp" alt="Taita's Restaurant">
+            <p  class="name_logo">K.L.K Corporation</p>
+
+        </a>
+        <nav>
+            <ul class="navigation_page">
+                <li><a id="menu"></a></li>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="discover.html">Discover</a></li>
+                <li><a href="directory.html">Directory</a> </li>
+                <li><a href="join.html">Join</a></li>
+                <li><a href="about.html">Contact us</a></li> 
+                <li><a  href="https://facebook.com" target="_blank"> <img class="icon" src="images/facebook.png" alt="facebook"></a></li> 
+                <li><a  href="https://twitter.com" target="_blank"> <img  class="icon" src="images/twitter.png" alt="twitter"></a></li>  
+        </ul>
+        </nav>
+        <div class="date_mod1">
+            <br>
+            © <span id="c_year"> </span>   
+              Last updated:  <span id="last_modified"></span>
+        </div>
+    </header>
+
+
+
+<br>
+    <main> <div class="principal_grid">
+
+        <!-- Start Menu--><div class="food_menu" >
+            
+            <p>  Supplying your needs, powering your progress
+                 <span> <br><a href="join.html">See more</a></span> </p>
+                 <img src="images/menu_classic.webp" alt="menu classic"> 
+        
+        </div><!-- End Menu-->
+
+        <div class="trad_food" > <h3> We work responsibly, <br> always putting safety first</h3>
+            <img src="images/menu_ejec.webp" alt="tradicional food">
+        </div>
+        <div class="about_us" > <h4>Contact us </h4>
+            <a href="about.html"><img src="images/about_us2.webp" alt="about us"> </a>
+        </div>
+
+       
+        <!-- Start Welcome--> <div class="welcome" >
+            <div class="welc_1"> 
+                <!-- INICIO -  DELETE PICTURE Tag AFTER GRADING OF WEEK W06 ↓
+                <picture>
+                    <source media="(min-width: 961.6px)" srcset="images/images_week06/wdd230-org_larg.webp" type="image/webp">
+                    <source media="(min-width: 552px)" srcset="images/images_week06/wdd230-org_med.webp" type="image/webp">
+                    <source media="(max-width: 551px)" srcset="images/images_week06/wdd230-org_small.webp" type="image/webp">
+                    <img src="images/images_week06/wdd230-org.jpg" alt="HERO IMAGE">
+                </picture>
+                 FINAL -  BORRAR PICTURE DESPUES QUE CALIFIQUEN SEMANA W06-->
+                <!-- *******  Week06: <picture> qualified tag, proceed to continue with the code****  -->
+
+                 <img src="images/welcome_img.webp" alt="welcome image">                                 
+                <h2>Welcome to K.L.K. Corp </h2>
+                <button class="welc_butt" onclick="window.location.href='discover.html'" >Start here </button>
+            </div>
+            
+            
+            
+        </div> <!-- End Welcome-->
+
+
+
+
+        <!-- Start img transitions--><div class="img_transitions" >
+                         <!-- Slideshow container -->
+                         <div class="slideshow-container">
+
+                            <!-- Full-width images with number and caption text -->
+                            <div class="mySlides fade">
+                            <img src="images/slide1.webp" alt="slide1">
+                            </div>
+                
+                            <div class="mySlides fade">
+                            <img src="images/slide2.webp" alt="slide2">
+                            </div>
+                  
+                            <div class="mySlides fade">     
+                            <img src="images/slide3.webp" alt="slide3">
+                            </div>
+                  
+                            <!-- Next and previous buttons -->
+                            <div class="slide_buton_backg">
+                            <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                            <a class="next" onclick="plusSlides(1)">&#10095;</a></div>
+                            </div>
+
+
+        </div><!-- End img transitions-->
+
+
+
+        <div class="promo_deli">
+            <p class="sp1"> Projects </p>
+            <img src="images/spot1.webp" alt="delivery"> <br>
+            <p class="sp2"> Personalized Consulting </p>
+            <img src="images/spot2.webp" alt="promos">
+
+
+        </div>
+        </div>
+
+       
+        <div class="wind_weat">
+            <div class="wind_chill">
+                <p> Knowing the current weather helps us better plan our field operations and ensure safety for our on-site teams</p>
+            </div>  
+       <!-- <div class="wind_chill">
+            <label>Temperature: &nbsp;<input type="text" id="temperature" size="5" ><br><br></label>
+            <label>Wind Speed:  &nbsp;<input type="text" id="wind_speed" size="5" ><br><br></label>
+        <button type="button" onclick="doInputOutput()">Calculate</button> &nbsp;    
+        <span id="output"></span>
+        </div>-->
+        
+        <div class="weather_huaraz">
+            <h2>Weather Huaraz</h2>
+                <div class="in_weath_hz"> 
+                <p>The current temperature in Huaraz, Peru is <span id="current-temp"></span> &deg;C , or <span id="temp_fahrenheit"></span> &deg;Fahrenheit</p>
+                <p>Wind Chill (metric units): &nbsp; &nbsp; <span id="huaraz_wind_ch"></span> &deg;C</p>
+                <h3>Current Condition</h3>
+                <figure><img src="https://openweathermap.org/img/w/04n.png" alt="OpenWeatherMap.org image" id="weather-icon" /><figcaption></figcaption></figure>
+                <p>Weather Information provided by  <br>  OpenWeatherMap.org License </p> 
+                </div>
+        </div></div>
+
+    </main>
+
+
+ 
+    <footer>
+
+        <img src="images/taita_img_contwp.webp" alt="Taita's Restaurant">
+        <p> Email: andrepaul2896@gmail.com <br> +51939XXXXXX </p>
+        <a href="https://goo.gl/maps/s6JXTVRiyxmKP5QHA" target="_blank">Location Map</a>
+
+        <div class="date_mod2">
+            <p>© <span id="c_year1"> </span> | K.L.K Multiservices* | Paul Andre A. Bejarano | GS497 -Professional Projects  </p>  
+            Last updated: <span id="last_modified1"></span>
+        </div>
+    </footer>
+
+</div>
+<script src="scripts/weather_huaraz.js"></script>
+<script src="scripts/date_mod.js"></script>
+<script src="scripts/hamb.js"></script>
+<script src="scripts/slide.js"></script>
+<script src="scripts/banners.js"></script>
+<script src="scripts/windchill.js"></script>
+</body>
+</html>

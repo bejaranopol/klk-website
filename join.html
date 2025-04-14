@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Join Us</title>
+    <link rel="stylesheet" href="styles/klk-portal.css">
+    <link rel="shortcut icon" href="images/favicon.ico">
+</head>
+<body>
+    <div id="content">
+        <div id="banner1">
+            <p>🏗️ Don't miss the KLK Multiservicios meeting this Wednesday at 7:00 p.m.! Learn more about our projects and how we can help you.
+            </p>
+            <button  onclick="function_delete()">x</button>   
+        </div>
+    <header>
+        <a  id="logo_taita" href="index.html">
+            <img src="images/taita_img_contwp.webp" alt="Taita's Restaurant">
+            <p  class="name_logo">K.L.K Corporation</p>
+
+        </a>
+        <nav>
+            <ul class="navigation_page">
+                <li><a id="menu"></a></li>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="discover.html">Discover</a></li>
+                <li><a href="directory.html">Directory</a> </li>
+                <li><a href="join.html">Join</a></li>
+                <li><a href="about.html">Contact us</a></li> 
+                <li><a  href="https://facebook.com" target="_blank"> <img class="icon" src="images/facebook.png" alt="facebook"></a></li> 
+                <li><a  href="https://twitter.com" target="_blank"> <img  class="icon" src="images/twitter.png" alt="twitter"></a></li>  
+        </ul>
+        </nav>
+        <div class="date_mod1">
+            <br>
+            © <span id="c_year"> </span>   
+              Last updated:  <span id="last_modified"></span>
+        </div>
+    </header>
+<br>
+    <main>  <div id="join_mainp">
+        <div class="section_form_info">
+            <section>
+                <h3>Community Support Plan</h3>
+                <h2>FREE</h2> <p>No fee</p>
+                <p>Access to basic technical guides <br>
+                    Monthly updates and maintenance tips<br>
+                    Join our network</p></section>
+
+            <section>
+                <h3>⚙️ Operational Plan</h3>
+                <h4>Ideal for businesses needing periodic support</h4> <p>per month</p>
+                <p>Monthly remote assistance<br>
+                    Priority scheduling for site visits<br>
+                    Access to client-exclusive resources</p></section>
+
+            <section>
+                <h3>🔧 Professional</h3>
+                <h4>Tailored for ongoing technical operations</h4> <p></p>
+                <p>✔️ All Operational Plan benefits<br>
+                    ✔️ Personalized consultation<br>
+                    ✔️ Maintenance reports and diagnostics<br>
+                    ✔️ Support for up to 2 active projects </p></section>
+
+            <section>
+                <h3>🔐 Enterprise </h3>
+                <h4>Designed for companies seeking full-scale support</h4> <p></p>
+                <p>✔️ All Professional Plan benefits<br>
+                    ✔️ VIP access to our technical team<br>
+                    ✔️ Strategic planning sessions<br>
+                    ✔️ Full operational tracking tools </p>
+                </section>
+        </div>
+
+        <div class="section_form">
+        <form method="get" action="thankyou.html">
+            <fieldset>
+                <legend> Applicant Information</legend>
+                <label> First name*<input type="text" name="first_name" required></label>
+                <label> Last name*<input type="text" name="last_name" required></label>
+                <label> Business Position / Job Title<input type="text" name="bussines_position" pattern="[A-Za-z\s-]{7,}" 
+                    title="Please insert a minimum of seven characters, also use alpha characters, hyphens and spaces.">
+               </label>
+                <label> Email*<input type="email" name="email" placeholder="example@gmail.com" required></label>
+                <label> Cell Phone Number<input type="tel" name="phone" placeholder="+51 xxxxxxxxx" required></label>
+                <label> Business Name<input type="text" name="bussines_name" required></label>          
+            </fieldset>
+            <br>
+            <fieldset>
+                <legend>Select your Plan</legend>
+                <label>Click below</label>
+
+                    <div class="section_form_info2">
+                        <section>
+                            <h3> Community Support Plan</h3>
+                            <h2>FREE</h2> <p>No fee</p>
+                            <p>Access to basic technical guides <br>
+                                Monthly updates and maintenance tips<br>
+                                Join our network</p> </section>
+            
+                        <section>
+                            <h3>⚙️ Operational Plan</h3>
+                            <h2></h2> <p>Ideal for businesses needing periodic support</p>
+                            <p>Monthly remote assistance<br>
+                                Priority scheduling for site visits<br>
+                                Access to client-exclusive resources</p></section>
+            
+                        <section>
+                            <h3>🔧 Professional</h3>
+                            <h2></h2> <p>Tailored for ongoing technical operations</p>
+                            <p>✔️ All Operational Plan benefits<br>
+                                ✔️ Personalized consultation<br>
+                                ✔️ Maintenance reports and diagnostics<br>
+                                ✔️ Support for up to 2 active projects </p></section>
+            
+                        <section>
+                            <h3>🔐 Enterprise</h3>
+                            <h2></h2> <p>Designed for companies seeking full-scale support</p>
+                            <p>✔️ All Professional Plan benefits<br>
+                                ✔️ VIP access to our technical team<br>
+                                ✔️ Strategic planning sessions<br>
+                                ✔️ Full operational tracking tools </p></section>
+                        </div>
+
+                    <label>
+                    <select name="subject">
+                        <option value="">Please Select</option>
+                        <option value="np_membership">Community Support Plan</option>
+                        <option value="bronze_membershipe">Operational Plan</option>
+                        <option value="silver_membership">Professional</option>
+                        <option value="gold_membership">Enterprise</option>                  
+                    </select>
+                </label>
+            </fieldset>
+            <br>
+            <fieldset class="bussines_info">
+                <legend >Business Information</legend>
+                <label>Brief description <br><textarea id="text_a_description" name="description" rows="5" cols="36"></textarea><br></label>
+                <label >Web Site (if any)<input class="descrie_buss" type="text" name="first_name"  ></label>
+            </fieldset> 
+            <br>
+                <input type="hidden" id="user_date_mod" name="date_modified" value="time_date">
+                <input type="submit" value="Submit">
+        </form>
+        </div>
+    </div>
+    </main>
+
+
+
+        
+
+    <footer>
+
+        <img src="images/taita_img_contwp.webp" alt="Taita's Restaurant">
+        <p> Email: andrepaul2896@gmail.com <br> +51939XXXXXX </p>
+        
+        <a href="https://goo.gl/maps/s6JXTVRiyxmKP5QHA" target="_blank">Location Map</a>
+
+        <div class="date_mod2">
+            <p>© <span id="c_year1"> </span> | K.L.K Multiservices* | Paul Andre A. Bejarano | GS497 -Professional Projects  </p>  
+            Last updated: <span id="last_modified1"></span>
+        </div>
+    </footer>
+
+    </div>
+
+<script src="scripts/date_mod.js"></script>
+<script src="scripts/hamb.js"></script>
+<script src="scripts/banners.js"></script>
+</body>
+</html>
