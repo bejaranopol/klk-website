@@ -1,5 +1,5 @@
   //const url = 'https://bejaranopol.github.io/wdd230/chamber/json/data.json';
-  const url = 'https://raw.githubusercontent.com/bejaranopol/klk-website/refs/heads/main/json/data.json';
+  const url =  'https://raw.githubusercontent.com/bejaranopol/klk-website/refs/heads/main/json/data.json';
     async function getDirectoryData(url) {
     const response = await fetch(url);
     const data = await response.json();
