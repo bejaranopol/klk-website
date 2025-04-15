@@ -96,6 +96,18 @@
                 "social_media":"instagram.com",
                 "order": 9,
                 "image":"https://bejaranopol.github.io/wdd230/chamber/json/img_json/taita.png"
+            },
+
+            {
+                "name": "GS497 - Paul Arcos Bejarano",
+                "address": "Huaraz",
+                "phone": "+51 xxxxxx",
+                "number": "(043) 31636",
+                "website": "https://www.facebook.com/pol.andre.585",
+                "membership_level":"Gold+",
+                "social_media":"instagram.com",
+                "order": 10,
+                "image":"https://scontent.ftru1-1.fna.fbcdn.net/v/t39.30808-6/488185973_2709615782564046_4731745975551407859_n.jpg?_nc_cat=101&ccb=1-7&_nc_sid=6ee11a&_nc_ohc=IB9uKv0cDywQ7kNvwFgAwoq&_nc_oc=AdmG-5rlP54iYEPNXD0oYpK-H1sQQ77nEPh7dH62xILG5kcCvKX8mlS9ZS-j7PWsZMc&_nc_zt=23&_nc_ht=scontent.ftru1-1.fna&_nc_gid=cwlF3Ea6sOJ7YfIOPB_vSQ&oh=00_AfGc0xkf2FonidDJsM_FHYsbgEnzVx-_IUXKIe_DQ9QUlA&oe=6803976F"
             }
 
         ]
